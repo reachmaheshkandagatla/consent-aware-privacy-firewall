@@ -1,0 +1,22 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+.vscode/
+*.log
+
+# Test and browser-extension build artifacts
+coverage/
+web-ext-artifacts/
+*.crx
+*.zip
+
+# Local agent metadata
+.agents/
+.codex/
+
+# Private key files
+*.pem
+*.key

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#0b5cff" />
+  <path d="M32 6L10 12v10c0 10 6 19 22 22 16-3 22-12 22-22V12L32 6z" fill="#fff"/>
+  <text x="32" y="42" font-size="12" text-anchor="middle" fill="#0b5cff" font-family="Arial" font-weight="700">CAF</text>
+</svg>

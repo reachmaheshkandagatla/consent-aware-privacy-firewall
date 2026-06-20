@@ -1,0 +1,28 @@
+body{margin:0;font-family:Arial,Helvetica,sans-serif}
+.popup{padding:12px;width:280px}
+.metrics{margin-top:8px}
+.controls{margin-top:12px;display:flex;flex-direction:column;gap:8px}
+button{padding:8px;border-radius:6px;border:1px solid #ccc;background:#f7f7f7}
+
+/* Open Dashboard button styling */
+#open-dashboard{
+	background: linear-gradient(180deg,#2b7cff,#1866f2);
+	color: #fff;
+	border: none;
+	padding: 10px 12px 10px 44px;
+	border-radius: 8px;
+	font-weight:600;
+	box-shadow: 0 2px 6px rgba(27,76,183,0.18);
+	cursor: pointer;
+	background-image: url('../assets/icon.svg');
+	background-repeat: no-repeat;
+	background-position: 12px center;
+	background-size: 20px 20px;
+}
+#open-dashboard:hover{filter:brightness(0.95)}
+#open-dashboard:active{transform:translateY(1px)}
+
+/* Slightly larger popup for better spacing */
+.popup{padding:14px;width:300px}
+.metrics{margin-top:10px}
+.controls{margin-top:14px;display:flex;flex-direction:column;gap:10px}

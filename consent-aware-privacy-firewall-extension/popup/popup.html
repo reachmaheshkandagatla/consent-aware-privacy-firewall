@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>CAF Popup</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <div class="popup">
+      <h3>Consent-Aware Firewall</h3>
+      <div>Status: <strong id="status">Enabled</strong></div>
+      <div class="metrics">
+        <div>Total scans: <span id="total">0</span></div>
+        <div>PII found: <span id="pii">0</span></div>
+        <div>High risk: <span id="high">0</span></div>
+      </div>
+      <div class="controls">
+        <button id="open-dashboard">Open Dashboard</button>
+        <label><input id="toggle-scan" type="checkbox" checked> Enable scanning</label>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
